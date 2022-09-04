@@ -35,7 +35,7 @@ class Grupo:
             self.listadoAlumnos= self.listadoAlumnos + lista
 
     @ classmethod
-    def asignarNombre(cls, nombre="Grado 10"):
+    def asignarNombre(cls, nombre="Grado 6"):
         cls.grado = nombre
 
     @ classmethod
