@@ -14,6 +14,7 @@ class Grupo:
     
     def __str__(self):
         grupo= "Grupo de estudiantes: " + self._grupo
+        return grupo
 
     def listadoAsignaturas(self, kwargs):
         for x in kwargs:
